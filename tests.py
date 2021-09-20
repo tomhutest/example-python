@@ -7,7 +7,7 @@ class TestMethods(unittest.TestCase):
     def test_smile(self):
         self.assertEqual(awesome.smile(), ":)")
         
-    def test_frown(self):
+    def test_frowny(self):
         self.assertEqual(awesome.frown(), ":(")
 
 
